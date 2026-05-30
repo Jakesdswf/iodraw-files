@@ -160,9 +160,6 @@
         <mxCell id="e5" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#0f172a;" parent="1" source="conv2" target="encembed" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e6" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#0f172a;" parent="1" source="decomp1" target="encembed" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="e7" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#0f172a;" parent="1" source="encembed" target="dfir" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
