@@ -34,6 +34,9 @@
         <mxCell id="input" value="x_enc / x_mark_enc" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="35" y="180" width="120" height="55" as="geometry" />
         </mxCell>
+        <mxCell id="k37gU56mlqAkSFfkYN52-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cnn" target="conv2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cnn" value="CNN Front-End" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dff0ff;strokeColor=#1f2937;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="245" y="150" width="120" height="42" as="geometry" />
         </mxCell>
@@ -145,9 +148,6 @@
         <mxCell id="output" value="Prediction Output Tensor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1300" y="705" width="240" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="e1" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#0f172a;" parent="1" source="input" target="cnn" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="e2" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#0f172a;" parent="1" source="cnn" target="conv1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -184,9 +184,6 @@
         <mxCell id="e15" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#0f172a;" parent="1" source="tdg" target="decoder" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e16" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#0f172a;" parent="1" source="input" target="decomp2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="e17" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#0f172a;" parent="1" source="decomp2" target="seasonal" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -212,12 +209,6 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e25" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#0f172a;" parent="1" source="meanctx" target="reshead" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e26" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#0f172a;" parent="1" source="input" target="targetlast" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e27" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#0f172a;" parent="1" source="input" target="history" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e28" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#0f172a;" parent="1" source="reshead" target="combine" edge="1">
