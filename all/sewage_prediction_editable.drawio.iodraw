@@ -1,9 +1,27 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0" version="24.7.17">
-  <diagram name="Enhanced Autoformer Sewage Prediction" id="0">
+  <diagram name="Enhanced Autoformer" id="0">
     <mxGraphModel dx="960" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
       <root>
-        <mxCell id="0I-yrkfXzVEFJWzWOPNW-0" />
-        <mxCell id="0I-yrkfXzVEFJWzWOPNW-1" parent="0I-yrkfXzVEFJWzWOPNW-0" />
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Enhanced Autoformer-Based Sewage Prediction Model" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5B7DB1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="20" width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pre" value="Preprocessing" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="120" y="120" width="180" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="embed" value="Feature Embedding" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="330" y="120" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="enc" value="Encoder Path" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="470" y="120" width="360" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="post" value="Post-Encoder Path" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="850" y="120" width="220" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="out" value="Output Refinement" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="120" width="340" height="420" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
